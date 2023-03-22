@@ -83,7 +83,7 @@ Save the code and unzip datasets and models to `/your/local/path/`, e.g., `/your
 
 **Step 2:** Train yourself DCGAN models and save them to `/your/local/path/dcgan`. (Or you can use the one provided by us for reproductivity.)
 
-**Step 3:** Edit configuration files `/your/local/path/src/experiment_builder.py` and `/your/local/path/dcgan/DCGAN_utils.py` in order to set the dataset, model, and DCGAN model path into `DFFuzz`
+**Step 3:** Edit configuration files `/your/local/path/experiment_builder.py` and `/your/local/path/dcgan/DCGAN_utils.py` in order to set the dataset, model, and DCGAN model path into `DFFuzz`
 
 ### Running DFFuzz
 
