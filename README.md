@@ -13,7 +13,7 @@ Here, we briefly introduce the usage/function of each directory:
 - `gan`: the GAN-based Fidelity Assurance Technique (the GAN structure and prediction code)
 - `dcgan`: the DCGAN-based Fidelity Assurance Technique (the DCGAN structure and prediction code)
 - `acgan`: the ACGAN-based Fidelity Assurance Technique (the ACGAN structure and prediction code)
-- `models`: the original models and its regression model. 
+- `models`: the original models and its regression model. (Since the file size of some models are large, here we provide all the models and regression model on MNIST-LeNet5 for the reproduction)
 - `params`: some params of `DFFuzz` and each model/datasets
 - `utils`: the tools of `DFFuzz` & The experimental script and the input evaluation to calculate the diversity in `DFFuzz`
 
