@@ -1,5 +1,6 @@
 import numpy as np
 
+import find_regression
 import gan_util
 import time
 import gc
@@ -348,6 +349,8 @@ class DFFuzz:
 
             if len(Mutants) > 0:
                 bflist, rflist, wklist, hwklist, B_new, dangerous_source_id, fixlist = self.isFailedTestList(I, Mutants)
+                bflist, rflist, wklist, hwklist, B_new, dangerous_source_id, fixlist = find_regression.isFailedTestList(
+                    self, I, Mutants)
                 self.both_failure_case.extend(bflist)
                 count_both_fail.extend(bflist)
                 self.regression_faults.extend(rflist)
