@@ -41,13 +41,6 @@ We use 4 popular DL models based on 4 datasets under 2 regression scenarios, as 
 
 3: For ADV, we provide adversarial training on C&W adversarial examples.
 
-4: If you want to download other models, please check the link below:
-- MNIST: https://drive.google.com/file/d/1l_s--uSm5TN5a0xUTb1WobRHLti6o7Zw/view?usp=sharing
-- Cifar10:https://drive.google.com/file/d/14ZBdd_AlDfVYcbdV31O0MNFHh0-z87cL/view?usp=sharing
-- FM:https://drive.google.com/file/d/1C-gl_HgOOirM4I1mhDvShKFGLPzFlRbn/view?usp=sharing
-- SVHN:https://drive.google.com/file/d/1UFZv6WZ0b-W0Qk4o8xfvAhK-mPiJhQGk/view?usp=sharing
-After downloading the models, please put these models in `models` and make sure that the address of models are correct in **src/experiment_builder.py**. 
-
 ## The Requirements:
 
 - python==3.7  (In fact 3.7.5 and 3.7.16 fits our work)
